@@ -1,0 +1,22 @@
+.header{
+    background-color: #3a4182;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+body {
+    background-color: #4f59b2;
+    background-image: linear-gradient(#4f59b2, #2b3274);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header__img {
+    width: 80px;
+    height: 80px;
+}
+
+.header__h {
+    font-size: 1cm;
+}
