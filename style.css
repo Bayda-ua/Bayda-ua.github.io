@@ -17,6 +17,28 @@ body {
     height: 80px;
 }
 
+.main__h {
+    background-color: #4f59b2;
+    font-size: 50px;
+    color: rgb(232, 77, 77);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.main {
+    background-color: #4f59b2;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+
+.main__text {
+    font-family: sans-serif;
+    background-color: white;
+    text-align: start;
+    font-size: 1.346cm;
+}
+
 .header__h {
     font-size: 1cm;
 }
