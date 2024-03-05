@@ -2,20 +2,28 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    color: yellow;
 }
 .container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-color: white;
+    height: 6800px;
+
 }
 .header, .main, .main__goal, .main__develop, .main__events, .main__join{
     width: 90%;
 }
+img{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .header{
-    background: yellow;
-    height: 500px;
+    background: url(police.jpg);
+    background-repeat: no-repeat;
+    height: 220px;
+    background-size: contain;
 }
 .header__content{
     display: flex;
@@ -39,14 +47,15 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 1800px;
+    height: 4000px;
+    background-color: darkred;
 }
 .main__goal{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: end;
     flex-direction: column;
-    height: 100px;
+    height: 150px;
 }
 .goal__h{
     width: 90%;
@@ -58,20 +67,20 @@
 .main__develop{
     display: flex;
     justify-content: space-between;
-    align-items: end;
     flex-direction: column;
-    height: 320px;
+    height: 2520px;
 }
 .develop__h{
     width: 90%;
     color: red;
+    height: 50px;
+}
+.develop__h:nth-child(1){
+    font-size: 50px;
+    height: auto;
 }
 .develop__text{
     width: 100%;
-}
-.develop__img{
-    width: 100%;
-    height: 200px;
 }
 .main__events{
     display: flex;
@@ -82,7 +91,7 @@
 }
 .events__h{
     font-size: xx-large;
-    color: black;
+    color: red;
     height: 20%;
 }
 .events__list{
@@ -97,14 +106,16 @@
     justify-content: end;
     align-items: center;
     width: 400px;
-    height: 100%;
-    background: yellow;
+    background: url(clyatba.jpg);
     flex-direction: column;
+    background-size: cover;
+    background-color: black;
+    height: 400px;   
 }
 .list__more{
     width: 90%;
     height: 10%;
-    color: black;
+    color: yellow;
     text-decoration: underline red;
 }
 .list__h{
@@ -125,11 +136,11 @@
     justify-content: center;
     height: 200px;
     width: 200px;
-    background-color: darkred;
+    background-color: red;
     border-radius: 100%;
 }
 .button__link{
-    color: white;
+    color: yellow;
     font-size: x-large;
     text-decoration: none;
 }
